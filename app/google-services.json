@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "415251738785",
+    "firebase_url": "https://bloodyef-d4dc9.firebaseio.com",
+    "project_id": "bloodyef-d4dc9",
+    "storage_bucket": "bloodyef-d4dc9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415251738785:android:c17f559fb2548f7d",
+        "android_client_info": {
+          "package_name": "blood.venky.com.bloodyef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415251738785-3s8kro91lapkait4ki3vl8vb4ctsb7de.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blood.venky.com.bloodyef",
+            "certificate_hash": "aca603f98462d23f94262d9b5cc6ed33321a68d5"
+          }
+        },
+        {
+          "client_id": "415251738785-dc9hctd4j2k02dtt7mhq90qk1cmidtp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "blood.venky.com.bloodyef",
+            "certificate_hash": "fc4147b18b2608ef58830a1db2e60af7152bd88e"
+          }
+        },
+        {
+          "client_id": "415251738785-00brkggjhqplffe9j0hli8aa8n7qe40c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvtMqQrxPHnMioGhR2NcArV7M9cBqBy3w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415251738785-00brkggjhqplffe9j0hli8aa8n7qe40c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

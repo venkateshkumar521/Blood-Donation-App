@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Userdetails"
+            android:icon="@drawable/post12"
+            android:title="@string/blooddetails" />
+        <item
+            android:id="@+id/nav_postrequest"
+            android:icon="@drawable/post12"
+            android:title="@string/postbloodrequest" />
+        <item
+            android:id="@+id/nav_MyProfile"
+            android:icon="@drawable/picture"
+            android:title="@string/myprofile" />
+        <item
+            android:id="@+id/nav_Settings"
+            android:icon="@drawable/settings"
+            android:title="@string/settings" />
+
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/send" />
+            <item
+                android:id="@+id/nav_About"
+                android:icon="@drawable/about"
+                android:title="@string/aboutus" />
+            <item
+                android:id="@+id/nav_Help"
+                android:icon="@drawable/help"
+                android:title="@string/help" />
+
+        </menu>
+    </item>
+
+</menu>

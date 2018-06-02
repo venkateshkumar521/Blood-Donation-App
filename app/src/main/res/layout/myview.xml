@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:clickable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="0dp"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/cardview_bg"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="5dp"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <ImageView
+                    android:id="@+id/profile_image"
+                    android:layout_width="15dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/background_light"
+                    android:clickable="true"
+                    android:src="@drawable/picture" />
+
+                <LinearLayout
+                    android:layout_width="12dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2.8"
+                    android:background="@color/btn_login_bg"
+                    android:gravity="top|center_vertical|fill_vertical"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/vHosp"
+                        android:layout_width="match_parent"
+                        android:layout_height="27dp"
+                        android:gravity="right"
+                        android:hint="@string/hospital_name_and_location"
+                        android:textColor="@color/colorGray"
+
+                        android:textSize="10sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/vAddress"
+                        android:layout_width="128dp"
+                        android:layout_height="24dp"
+                        android:layout_marginTop="2dp"
+                        android:hint="Address"
+                        android:textColor="@color/colorLightGray"
+                        android:textSize="10sp" />
+
+                    <TextView
+                        android:id="@+id/vDesc"
+                        android:layout_width="127dp"
+                        android:layout_height="24dp"
+                        android:gravity="right"
+                        android:hint="@string/description"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/vMobile"
+                        android:layout_width="131dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:autoLink="phone"
+                        android:autoText="false"
+                        android:hint="Mobile"
+                        android:maxLength="12"
+                        android:numeric="integer"
+                        android:textAppearance="@style/TextAppearance.AppCompat"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:id="@+id/vBlood"
+                        android:layout_width="match_parent"
+                        android:layout_height="94dp"
+                        android:layout_marginTop="0dp"
+                        android:autoLink="web"
+                        android:background="@drawable/roun_rect_orange"
+                        android:gravity="center_vertical"
+                        android:text="@string/bloodgroup"
+                        android:textColor="@color/btn_login_bg"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
